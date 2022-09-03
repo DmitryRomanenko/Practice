@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 2px solid black;
+}
+.block {
+  margin-top: 15px;
+  padding: 5px;
+  border: 2px solid black;
+}
+.block:nth-child(1) {
+  align-self: flex-start;
+}
+.block:nth-child(2) {
+  align-self: center;
+}
+.block:nth-child(4) {
+  align-self: center;
+}
+.block:nth-child(5) {
+  align-self: flex-end;
+}

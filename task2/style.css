@@ -1,0 +1,19 @@
+.wrapper {
+  border: 2px solid black;
+  display: flex;
+  height: 300px;
+  padding: 6px;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+}
+.block {
+  padding: 10px;
+  border: 2px solid black;
+}
+.center {
+  align-self: center;
+}
+.top {
+  align-self: flex-start;
+}
